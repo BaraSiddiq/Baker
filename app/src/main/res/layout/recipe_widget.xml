@@ -1,0 +1,13 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/widget_margin">
+
+    <ImageView
+        android:onClick="recipeLauncher"
+        android:id="@+id/widget_icon"
+        android:src="@drawable/widget_icon"
+        android:layout_width="128dp"
+        android:layout_height="128dp" />
+
+</RelativeLayout>
